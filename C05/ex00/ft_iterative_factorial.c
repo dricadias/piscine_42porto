@@ -41,7 +41,7 @@ int	ft_iterative_factorial(int nb)
 	
 	if (argc == 2)
 	{
-    n = atoi(argv[1]);
+    		n = atoi(argv[1]);
 		printf("%d\n", ft_iterative_factorial(n));
 	}
 	return (0);
